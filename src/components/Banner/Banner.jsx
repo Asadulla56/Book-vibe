@@ -13,7 +13,7 @@ const Banner = () => {
         <div className="space-y-10">
           <h1 className="text-5xl font-bold ">Books to freshen </h1>
           <h1 className="text-5xl text-[#131313] font-bold">up your bookshelf</h1>
-          <Link to='/listed'><button className="btn bg-[#23BE0A] text-white mt-10">View The List</button></Link>
+          <Link to='/listed'><button className="btn bg-[#23BE0A] text-white mt-10">View The Book List</button></Link>
         </div>
       </div>
     </div>
