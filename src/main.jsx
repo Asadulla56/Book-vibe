@@ -13,6 +13,8 @@ import PageToRead from './components/PageToRead/PageToRead';
 import BookDitails from './components/BooksDitails/BookDitails';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
+import Login from './components/Auth/Login';
+import Register from './components/Auth/Register';
 // import Readlist from './components/ReadList/Readlist';
 
 
@@ -58,7 +60,15 @@ const router = createBrowserRouter([
       {
         path:'/read',
         element:<PageToRead></PageToRead> 
-      }
+      },
+      {
+        path:'/login',
+        element:<Login></Login>
+      },
+      {
+        path:'/register',
+        element:<Register></Register>
+      },
     ]
   },
 ]);
