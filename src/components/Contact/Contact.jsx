@@ -1,4 +1,3 @@
-// import { FaBook } from "react-icons/fa";
 
 const Contact = () => {
     return (
@@ -8,7 +7,7 @@ const Contact = () => {
           {/* Left Page - Contact Form */}
           <div className="space-y-6 relative">
             <h2 className="text-4xl font-bold text-blue-900 border-b pb-2 border-blue-300">
-              ✍️ Write to Us
+               Write to Us
             </h2>
   
             <form className="space-y-6">
@@ -17,7 +16,7 @@ const Contact = () => {
                 <input
                   type="text"
                   className="w-full p-3 rounded-md border border-blue-300 bg-gradient-to-b from-blue-50 to-white focus:outline-none focus:ring-2 focus:ring-blue-400 shadow-inner"
-                  placeholder="Jane Austen"
+                  placeholder="Enter your Name"
                 />
               </div>
               <div>
@@ -25,7 +24,7 @@ const Contact = () => {
                 <input
                   type="email"
                   className="w-full p-3 rounded-md border border-blue-300 bg-gradient-to-b from-blue-50 to-white focus:outline-none focus:ring-2 focus:ring-blue-400 shadow-inner"
-                  placeholder="jane@example.com"
+                  placeholder="Enter your mail"
                 />
               </div>
               <div>
@@ -33,7 +32,7 @@ const Contact = () => {
                 <textarea
                   rows="6"
                   className="w-full p-3 rounded-md border border-blue-300 bg-gradient-to-b from-blue-50 to-white focus:outline-none focus:ring-2 focus:ring-blue-400 shadow-inner"
-                  placeholder="Dear reader..."
+                  placeholder="Message .."
                 ></textarea>
               </div>
   
@@ -41,7 +40,7 @@ const Contact = () => {
                 type="submit"
                 className="mt-4 px-6 py-3 rounded-full bg-gradient-to-r from-blue-700 to-blue-500 text-white text-lg font-semibold shadow-lg hover:scale-105 transition-transform duration-300"
               >
-                ✉️ Send Letter
+                 Send Letter
               </button>
             </form>
           </div>
@@ -49,24 +48,24 @@ const Contact = () => {
           {/* Right Page - Info Panel */}
           <div className="space-y-6">
             <h2 className="text-4xl font-bold text-blue-900 border-b pb-2 border-blue-300">
-              📚 Our Details
+               Our Details
             </h2>
   
             <div className="space-y-4 text-lg text-gray-700">
               <p>
-                <span className="font-semibold text-blue-800">📍 Address:</span><br />
+                <span className="font-semibold text-blue-800"> Address:</span><br />
                 221B Book Lane, Literature City, IN 45678
               </p>
               <p>
-                <span className="font-semibold text-blue-800">📞 Phone:</span><br />
+                <span className="font-semibold text-blue-800"> Phone:</span><br />
                 01303-846876-BOOK
               </p>
               <p>
-                <span className="font-semibold text-blue-800">📬 Email:</span><br />
+                <span className="font-semibold text-blue-800"> Email:</span><br />
                 storybookpress@gmail.com
               </p>
               <p>
-                <span className="font-semibold text-blue-800">🕰 Hours:</span><br />
+                <span className="font-semibold text-blue-800"> Hours:</span><br />
                 Sun–Sat: 8AM – 8PM
               </p>
             </div>
